@@ -12,28 +12,35 @@
 body {
   background-image: url('Images/homeBackgroundImage.jpg');
   background-size: cover;
+  font-family: 'Noto Sans';
 }
 
 /* TEXT */
 h1 {
-  font-family: 'Noto Sans';
   font-weight: 700;
-  margin-top: 80px;
-  font-size: 120px;
+  font-size: 100px;
   color: var(--darkBlue);
-  text-align: center;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 40px;
+  color: var(--colorWhite);
 }
 
 .button {
-  width: 200px;
   height: 50px;
   background-color: var(--colorWhite);
-  border-radius: 2px;
-  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 0% 1%;
 }
 
-.button-container {
-  float: center;
+header {
+  border-left: 2px solid black;
+  margin-top: 100px;
+  margin-left: 5%;
+  padding: 2%;
 }
 /* NAVIGATION BAR */
 ul {
