@@ -2,7 +2,7 @@
 
 :root {
   --colorWhite: #ffffff;
-  --lightGrey: #494850;
+  --lightGrey: #5D5F6D;
   --darkGrey: #2B2D42;
   --lightBlue: #0353A4;
   --darkBlue: #0F084B;
@@ -21,6 +21,7 @@ h1 {
   font-size: 100px;
   color: var(--darkBlue);
   padding-bottom: 10px;
+  text-shadow: 1px 1px 5px;
 }
 
 h3 {
@@ -37,7 +38,7 @@ h3 {
 }
 
 header {
-  border-left: 2px solid black;
+  border-left: 4px solid;
   margin-top: 100px;
   margin-left: 5%;
   padding: 2%;
@@ -47,7 +48,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: var(--lightGrey);
+  background-color: var(--darkGrey);
   position: fixed;
   top: 0;
   width: 100%;
@@ -67,7 +68,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: var(--darkGrey);
+  background-color: var(--lightGrey);
 }
 
 .active {
