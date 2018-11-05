@@ -2,7 +2,7 @@
 
 :root {
   --colorWhite: #ffffff;
-  --lightGrey: #494850;
+  --lightGrey: #5D5F6D;
   --darkGrey: #2B2D42;
   --lightBlue: #0353A4;
   --darkBlue: #0F084B;
@@ -12,24 +12,43 @@
 body {
   background-image: url('Images/homeBackgroundImage.jpg');
   background-size: cover;
+  font-family: 'Noto Sans';
 }
 
 /* TEXT */
 h1 {
-  font-family: 'Noto Sans';
   font-weight: 700;
-  margin-top: 80px;
-  font-size: 120px;
+  font-size: 100px;
   color: var(--darkBlue);
-  text-align: center;
+  padding-bottom: 10px;
+  text-shadow: 1px 1px 5px;
 }
 
+h3 {
+  font-size: 40px;
+  color: var(--colorWhite);
+}
+
+.button {
+  height: 50px;
+  background-color: var(--colorWhite);
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 0% 1%;
+}
+
+header {
+  border-left: 4px solid;
+  margin-top: 100px;
+  margin-left: 5%;
+  padding: 2%;
+}
 /* NAVIGATION BAR */
 ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: var(--lightGrey);
+  background-color: var(--darkGrey);
   position: fixed;
   top: 0;
   width: 100%;
@@ -49,7 +68,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: var(--darkGrey);
+  background-color: var(--lightGrey);
 }
 
 .active {
