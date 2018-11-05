@@ -24,6 +24,17 @@ h1 {
   text-align: center;
 }
 
+.button {
+  width: 200px;
+  height: 50px;
+  background-color: var(--colorWhite);
+  border-radius: 2px;
+  margin: 10px;
+}
+
+.button-container {
+  float: center;
+}
 /* NAVIGATION BAR */
 ul {
   margin: 0;
