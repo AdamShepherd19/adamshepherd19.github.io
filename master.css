@@ -6,31 +6,39 @@
   --darkBlue: #0F084B;
 }
 
+/* BACKGROUND */
+body {
+  background-image: url('Images/homeBackgroundImage.jpg');
+  background-size: cover; 
+}
+
+/* NAVIGATION BAR */
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: var(--lightGrey);
-    position: fixed;
-    width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: var(--lightGrey);
+  position: fixed;
+  width: 100%;
 }
 
 li {
-    float: left;
+  float: left;
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 24px;
+  text-decoration: none;
+  font-size: 24px;
 }
 
 li a:hover:not(.active) {
-    background-color: var(--darkGrey);
+  background-color: var(--darkGrey);
 }
 
 .active {
-    background-color: var(--lightBlue);
+  background-color: var(--lightBlue);
 }
