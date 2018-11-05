@@ -1,0 +1,36 @@
+:root {
+  --colorWhite: #ffffff;
+  --lightGrey: #494850;
+  --darkGrey: #2B2D42;
+  --lightBlue: #0353A4;
+  --darkBlue: #0F084B;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--lightGrey);
+    position: fixed;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: var(--darkGrey);
+}
+
+.active {
+    background-color: var(--lightBlue);
+}
