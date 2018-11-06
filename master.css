@@ -29,19 +29,12 @@ h3 {
   color: var(--colorWhite);
 }
 
-.button {
-  height: 50px;
-  background-color: var(--colorWhite);
-  border-radius: 5px;
-  border: 2px solid black;
-  margin: 0% 1%;
-}
-
-header {
+.header {
   border-left: 4px solid;
+  margin: 0% 20%;
   margin-top: 100px;
-  margin-left: 5%;
   padding: 2%;
+  max-width: 75%;
 }
 /* NAVIGATION BAR */
 ul {
