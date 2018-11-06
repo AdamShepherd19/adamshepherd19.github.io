@@ -62,15 +62,9 @@ li a:hover:not(.active) {
   background-color: var(--lightBlue);
 }
 
-nav, .grid-container {
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
-  margin-left: 0px;
-}
-
 .grid-container {
   max-width: 100%;
+  padding: 0px;
 }
 
 nav .grid-8 {
