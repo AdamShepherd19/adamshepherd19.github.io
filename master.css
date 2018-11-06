@@ -18,7 +18,7 @@ body {
 /* TEXT */
 h1 {
   font-weight: 700;
-  font-size: 100px;
+  font-size: 85px;
   color: var(--darkBlue);
   padding-bottom: 10px;
   text-shadow: 1px 1px 5px;
@@ -29,20 +29,6 @@ h3 {
   color: var(--colorWhite);
 }
 
-.button {
-  height: 50px;
-  background-color: var(--colorWhite);
-  border-radius: 5px;
-  border: 2px solid black;
-  margin: 0% 1%;
-}
-
-header {
-  border-left: 4px solid;
-  margin-top: 100px;
-  margin-left: 5%;
-  padding: 2%;
-}
 /* NAVIGATION BAR */
 ul {
   margin: 0;
@@ -64,13 +50,31 @@ li a {
   text-align: center;
   padding: 20px 24px;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 li a:hover:not(.active) {
   background-color: var(--lightGrey);
+  border-radius: 50px;
 }
 
 .active {
   background-color: var(--lightBlue);
+}
+
+.grid-container {
+  max-width: 100%;
+  padding: 0px;
+}
+
+nav .grid-8 {
+  padding: 0px;
+}
+
+/* HEADER */
+.header {
+  border-left: 4px solid;
+  margin-top: 100px;
+  padding: 2%;
+  margin-right: 10%;
 }
