@@ -13,7 +13,7 @@
 
 <body>
   <nav>
-    <div class="topnav grid-container" id="myTopnav">
+    <div class="nav-bar grid-container" id="myTopnav">
       <a href="#home" class="active grid-8 tablet-grid-50 mobile-grid-90">Home</a>
       <a href="#projects" class="grid-8 tablet-grid-50 ">Projects</a>
       <a href="#cv" class="grid-8 tablet-grid-50 ">My CV</a>
@@ -24,16 +24,8 @@
     </div>
   </nav>
 
-  <script>
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
-  </script>
+  <script src="responsiveNavBar.js"></script>
+
   <header class="grid-container">
     <div class="prefix-20 tablet-prefix-10 mobile-prefix-5 grid-parent header">
       <h1 class="grid-100">ADAM SHEPHERD</h1>
