@@ -25,22 +25,41 @@ h1 {
   text-shadow: 1px 1px 5px;
 }
 
-h3 {
-  font-size: 40px;
-  color: var(--colorWhite);
+/* HEADER */
+.header {
+  border-left: 4px solid;
+  margin-top: 80px;
+  padding: 2%;
+  margin-right: 10%;
 }
 
-/* .mobile-prefix-5, h1 {
-  font-size: 50px;
+/* HOME PAGE BUTTONS */
+.nav-buttons .button {
+  /* background-color: var(--lightGrey); */
+  border-left: 4px solid black;
+  /* border-radius: 50px; */
+  text-align: left;
+  padding: 20px 2%;
+  margin-top: 5%;
 }
 
-.mobile-prefix-5, h3 {
-  font-size: 30px;
-} */
+.nav-buttons a {
+  text-decoration: none;
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.button:hover{
+  border-left: 8px solid black;
+  text-decoration: underline;
+}
+
+
 
 /* NAVIGATION BAR */
 /* adapted and customised from the example on w3schools */
-.grid-container{
+/* .grid-container{
     padding: 0px;
     max-width: 100%;
 }
@@ -102,12 +121,4 @@ h3 {
     display: block;
     text-align: left;
   }
-}
-
-/* HEADER */
-.header {
-  border-left: 4px solid;
-  margin-top: 100px;
-  padding: 2%;
-  margin-right: 10%;
-}
+} */
