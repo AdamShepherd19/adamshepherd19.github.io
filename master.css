@@ -30,6 +30,14 @@ h3 {
   color: var(--colorWhite);
 }
 
+/* .mobile-prefix-5, h1 {
+  font-size: 50px;
+}
+
+.mobile-prefix-5, h3 {
+  font-size: 30px;
+} */
+
 /* NAVIGATION BAR */
 .grid-container{
     padding: 0px;
