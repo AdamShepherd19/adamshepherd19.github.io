@@ -6,20 +6,34 @@
   <meta charset="utf-8">
   <title>Adam Shepherd</title>
   <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.2.3/unsemantic-grid-responsive-tablet.css">
   <link rel="stylesheet" href="master.css">
 </head>
 
 <body>
-  <nav class="grid-container">
-      <ul class="grid-100 grid-parent">
-        <li class="grid-8 tablet-grid-50 mobile-grid-100"><a class="active" href="#home">Home</a></li>
-        <li class="grid-8 tablet-grid-50 mobile-grid-100"><a href="#projects">Projects</a></li>
-        <li class="grid-8 tablet-grid-50 mobile-grid-100"><a href="#cv">My CV</a></li>
-        <li class="grid-8 tablet-grid-50 mobile-grid-100"><a href="#about">About Me</a></li>
-      </ul>
+  <nav>
+    <div class="topnav grid-container" id="myTopnav">
+      <a href="#home" class="active grid-8 tablet-grid-50 mobile-grid-90">Home</a>
+      <a href="#projects" class="grid-8 tablet-grid-50 ">Projects</a>
+      <a href="#cv" class="grid-8 tablet-grid-50 ">My CV</a>
+      <a href="#about" class="grid-8 tablet-grid-50 ">About Me</a>
+      <a href="javascript:void(0);" class="active icon mobile-grid-10" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
   </nav>
 
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
   <header class="grid-container">
     <div class="prefix-20 grid-parent header">
       <h1 class="grid-100">ADAM SHEPHERD</h1>
