@@ -47,6 +47,22 @@ h3 {
   font-size: 40px;
   color: white;
 }
+
+p {
+  border-left: 4px solid;
+  margin-top: 20px;
+  padding: 0px;
+}
+
+#coming-soon{
+  margin-top: 25px;
+  color: black;
+}
+.prefix-5 {
+  padding: 0px;
+}
+
+
 /* reduces heading font size on smaller devices */
 @media screen and (max-width: 768px) {
   h1{
