@@ -11,32 +11,34 @@
   <link rel="stylesheet" href="master.css">
 </head>
 
+<body id="all-projects-page">
+  <nav>
+    <div class="nav-bar grid-container" id="myTopnav">
+      <a href="#home" class="active grid-8 tablet-grid-50 mobile-grid-90">Home</a>
+      <a href="#projects" class="grid-8 tablet-grid-50 ">Projects</a>
+      <a href="#cv" class="grid-8 tablet-grid-50 ">My CV</a>
+      <a href="#about" class="grid-8 tablet-grid-50 ">About Me</a>
+      <a href="javascript:void(0);" class="active icon mobile-grid-10" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </nav>
 
-<body>
-  <div class="background" id="all-projects-page">
-    <nav>
-      <div class="nav-bar grid-container" id="myTopnav">
-        <a href="#home" class="active grid-8 tablet-grid-50 mobile-grid-90">Home</a>
-        <a href="#projects" class="grid-8 tablet-grid-50 ">Projects</a>
-        <a href="#cv" class="grid-8 tablet-grid-50 ">My CV</a>
-        <a href="#about" class="grid-8 tablet-grid-50 ">About Me</a>
-        <a href="javascript:void(0);" class="active icon mobile-grid-10" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-    </nav>
+  <script src="responsiveNavBar.js"></script>
 
-    <script src="responsiveNavBar.js"></script>
-
-    <div class="body-content grid-container">
-      <header class="grid-parent">
-        <div class="prefix-5 header">
+  <div class="grid-container whole-page">
+    <div class="body-content grid-parent grid-70 prefix-15">
+      <header>
+        <div class="prefix-5 header grid-90">
           <h1>My Projects</h1>
         </div>
       </header>
+
+      <main>
+        <p class="prefix-5 grid-90">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </main>
+
     </div>
-
-
   </div>
 
 </body>
