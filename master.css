@@ -33,7 +33,7 @@ body {
   background-image: url('Images/HomeBackgroundImage.jpg');
 }
 #all-projects-page {
-  background-color: var(--lightGrey);
+  background-image: url('Images/AllProjectsBackgroundImage.jpg');
 }
 /* ===========================================================================*/
 /* TEXT */
