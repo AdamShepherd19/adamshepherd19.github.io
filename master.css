@@ -1,5 +1,9 @@
+/* IMPORTS A CUSTOM FONT FROM GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
 
+/* ===========================================================================*/
+/* DEFINING COLOUR VARIABLES */
+/* ===========================================================================*/
 :root {
   --lightGrey: #5D5F6D;
   --darkGrey: #2B2D42;
@@ -7,13 +11,16 @@
   --darkBlue: #0F084B;
 }
 
+/* ===========================================================================*/
 /* GENERAL PAGE STYLING */
+/* ===========================================================================*/
 body {
   margin: 0px;
   font-family: 'Noto Sans';
 }
-
+/* ===========================================================================*/
 /* BACKGROUND */
+/* ===========================================================================*/
 .main-body{
   margin: 0px;
   padding: 0px;
@@ -28,8 +35,9 @@ body {
 #all-projects-page {
   background-color: var(--lightGrey);
 }
-
+/* ===========================================================================*/
 /* TEXT */
+/* ===========================================================================*/
 h1 {
   font-weight: 700;
   font-size: 85px;
@@ -42,7 +50,7 @@ h3 {
   font-size: 40px;
   color: white;
 }
-
+/* reduces heading font size on smaller devices */
 @media screen and (max-width: 768px) {
   h1{
     font-size: 60px;
@@ -52,15 +60,17 @@ h3 {
     font-size: 30px;
   }
 }
-
+/* ===========================================================================*/
 /* HEADER */
+/* ===========================================================================*/
 .header {
   border-left: 4px solid;
   margin-top: 80px;
   padding: 2%;
 }
-
+/* ===========================================================================*/
 /* HOME PAGE BUTTONS */
+/* ===========================================================================*/
 .nav-buttons .button {
   border-left: 4px solid black;
   text-align: left;
@@ -79,11 +89,10 @@ h3 {
   border-left: 8px solid black;
   text-decoration: underline;
 }
-
-
-
+/* ===========================================================================*/
 /* NAVIGATION BAR */
 /* adapted and customised from the example on w3schools */
+/* ===========================================================================*/
 .nav-bar {
   overflow: hidden;
   background-color: var(--darkGrey);
