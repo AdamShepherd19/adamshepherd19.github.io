@@ -27,7 +27,7 @@ body {
 /* BACKGROUND */
 /* ===========================================================================*/
 #home-page{
-background-image: url('Images/HomeBackgroundImage.jpg');
+background-image: url('Images/homeBackgroundImage.jpg');
 }
 #all-projects-page {
   background-image: url('Images/AllProjectsBackgroundImage.jpg');
