@@ -84,14 +84,11 @@ h3 {
 
 /* NAVIGATION BAR */
 /* adapted and customised from the example on w3schools */
-/* .grid-container{
-    padding: 0px;
-    max-width: 100%;
-}
-
 .nav-bar {
   overflow: hidden;
   background-color: var(--darkGrey);
+  padding: 0px;
+  max-width: 100%;
 }
 
 .nav-bar a {
@@ -146,4 +143,4 @@ h3 {
     display: block;
     text-align: left;
   }
-} */
+}
