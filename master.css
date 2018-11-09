@@ -18,8 +18,13 @@ body {
   padding: 0px;
   width: 100%;
   height: 948px;
-  background-image: url('Images/homeBackgroundImage.jpg');
   background-size: cover;
+}
+#home-page{
+  background-image: url('Images/homeBackgroundImage.jpg');
+}
+#all-projects-page {
+  background-color: var(--lightGrey);
 }
 
 /* TEXT */
