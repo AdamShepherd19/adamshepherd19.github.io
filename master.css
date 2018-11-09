@@ -25,6 +25,21 @@ h1 {
   text-shadow: 1px 1px 5px;
 }
 
+h3 {
+  font-size: 40px;
+  color: var(--colorWhite);
+}
+
+@media screen and (max-width: 768px) {
+  h1{
+    font-size: 60px;
+  }
+
+  h3{
+    font-size: 30px;
+  }
+}
+
 /* HEADER */
 .header {
   border-left: 4px solid;
