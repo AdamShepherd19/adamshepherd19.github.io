@@ -12,8 +12,8 @@
 </head>
 
 <body>
-  <nav>
-    <div class="topnav grid-container" id="myTopnav">
+  <!-- <nav>
+    <div class="nav-bar grid-container" id="myTopnav">
       <a href="#home" class="active grid-8 tablet-grid-50 mobile-grid-90">Home</a>
       <a href="#projects" class="grid-8 tablet-grid-50 ">Projects</a>
       <a href="#cv" class="grid-8 tablet-grid-50 ">My CV</a>
@@ -24,22 +24,31 @@
     </div>
   </nav>
 
-  <script>
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
-  </script>
-  <header class="grid-container">
-    <div class="prefix-20 tablet-prefix-10 mobile-prefix-5 grid-parent header">
-      <h1 class="grid-100">ADAM SHEPHERD</h1>
-      <h3 class="grid-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</h3>
-    </div>
-  </header>
-</body>
+  <script src="responsiveNavBar.js"></script> -->
+  <div class="main-body-background">
+    <header class="grid-container">
+      <div class="prefix-15 tablet-prefix-10 mobile-prefix-5 grid-parent header">
+        <h1 class="grid-100">ADAM SHEPHERD</h1>
+        <h3 class="grid-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</h3>
+      </div>
+    </header>
 
+    <div class="grid-container nav-buttons">
+        <a href="#projects">
+          <div class="prefix-15 tablet-prefix-10 mobile-prefix-5 suffix-5 mobile-suffix-5 grid-20 tablet-grid-90 button">My Projects</div>
+        </a>
+
+        <a href="#cv">
+          <div class="tablet-prefix-10 mobile-prefix-5 suffix-5 mobile-suffix-5 grid-20 tablet-grid-90 button">My CV</div>
+        </a>
+
+        <a href="#about">
+          <div class=" tablet-prefix-10 mobile-prefix-5 suffix-5 mobile-suffix-5 grid-20 tablet-grid-90 button">About Me</div>
+        </a>
+    </div>
+  </div>
+
+
+
+</body>
 </html>
