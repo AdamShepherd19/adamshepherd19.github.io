@@ -67,6 +67,18 @@ h3 {
   margin-top: 80px;
   padding: 2%;
 }
+
+/* ===========================================================================*/
+/* FOREGROUND BODY */
+/* ===========================================================================*/
+.body-content {
+  background-color: white;
+  margin-top: 20px;
+  /* HEIGHT TEMPORARY UNTIL CONTENT IS ADDED */
+  height: 90%;
+}
+
+
 /* ===========================================================================*/
 /* HOME PAGE BUTTONS */
 /* ===========================================================================*/
@@ -88,6 +100,7 @@ h3 {
   border-left: 8px solid black;
   text-decoration: underline;
 }
+
 /* ===========================================================================*/
 /* NAVIGATION BAR */
 /* adapted and customised from the example on w3schools */
@@ -151,8 +164,4 @@ h3 {
     display: block;
     text-align: left;
   }
-}
-
-.body-content {
-  background-color: white;
 }
