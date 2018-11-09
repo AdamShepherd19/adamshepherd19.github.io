@@ -126,7 +126,6 @@ h3 {
 
 .nav-bar a:hover:not(.active) {
   background-color: var(--lightGrey);
-  border-radius: 40px;
 }
 
 .active {
