@@ -26,10 +26,11 @@ body {
   width: 100%;
   height: 948px;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #home-page{
-  background-image: url('Images/homeBackgroundImage.jpg');
+  background-image: url('Images/HomeBackgroundImage.jpg');
 }
 #all-projects-page {
   background-color: var(--lightGrey);
