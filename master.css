@@ -18,7 +18,7 @@ body {
   margin: 0px;
   font-family: 'Noto Sans';
   width: 100%;
-  height: 948px;
+  padding-bottom: 20px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -30,7 +30,7 @@ body {
 background-image: url('Images/homeBackgroundImage.jpg');
 }
 #all-projects-page {
-  background-image: url('Images/AllProjectsBackgroundImage.jpg');
+  background-image: url('Images/background2.jpg');
 }
 /* ===========================================================================*/
 /* TEXT */
@@ -48,19 +48,14 @@ h3 {
   color: white;
 }
 
+h4 {
+  padding: 5px 0px;
+  font-size: 30px;
+}
 p {
-  border-left: 4px solid;
   margin-top: 20px;
   padding: 0px;
 }
-#coming-soon{
-  margin-top: 25px;
-  color: black;
-}
-.prefix-5 {
-  padding: 0px;
-}
-
 
 /* reduces heading font size on smaller devices */
 @media screen and (max-width: 768px) {
@@ -84,23 +79,27 @@ p {
 /* ===========================================================================*/
 /* FOREGROUND BODY */
 /* ===========================================================================*/
-.body-content .header {
+.main-body .header {
   margin-top: 25px;
 }
 
-.body-content {
-  background-color: white;
+.main-body {
+  /* background-color: white; */
   margin-top: 20px;
-  box-shadow: 0px 0px 20px black;
+  /* box-shadow: 0px 0px 20px black; */
   height: 100%;
 }
 
 .whole-page {
   max-width: 100%;
-  height: 90%
+  height: 90%;
 }
 
-
+.body-content {
+  margin: 0px;
+  padding: 0px;
+  /* border-left: 4px solid black; */
+}
 
 /* ===========================================================================*/
 /* HOME PAGE BUTTONS */
@@ -122,6 +121,23 @@ p {
 .button:hover{
   border-left: 8px solid black;
   text-decoration: underline;
+}
+/* ===========================================================================*/
+/* PROJECT CARDS */
+/* ===========================================================================*/
+.project-card .grid-100{
+  padding: 0px;
+}
+
+.project-card{
+  /* background-color: var(--lightGrey); */
+  color: white;
+  text-shadow: 1px 1px 4px black;
+  border-left: 4px solid black;
+  height: 400px;
+  margin-top: 20px;
+  /* box-shadow: 0px 0px 10px black; */
+  padding: 5px;
 }
 
 /* ===========================================================================*/
