@@ -48,15 +48,21 @@ h3 {
   color: white;
 }
 
+h4 {
+  padding: 5px 0px;
+  font-size: 30px;
+}
 p {
   border-left: 4px solid;
   margin-top: 20px;
   padding: 0px;
 }
+
 #coming-soon{
   margin-top: 25px;
   color: black;
 }
+
 .prefix-5 {
   padding: 0px;
 }
@@ -84,11 +90,11 @@ p {
 /* ===========================================================================*/
 /* FOREGROUND BODY */
 /* ===========================================================================*/
-.body-content .header {
+.main-body .header {
   margin-top: 25px;
 }
 
-.body-content {
+.main-body {
   background-color: white;
   margin-top: 20px;
   box-shadow: 0px 0px 20px black;
@@ -100,7 +106,9 @@ p {
   height: 90%
 }
 
-
+.body-content {
+  margin: 0px;
+}
 
 /* ===========================================================================*/
 /* HOME PAGE BUTTONS */
@@ -122,6 +130,20 @@ p {
 .button:hover{
   border-left: 8px solid black;
   text-decoration: underline;
+}
+
+.project-card .grid-100{
+  padding: 0px;
+}
+
+.project-card{
+  background-color: var(--lightGrey);
+  border: 2px solid black;
+  height: 400px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px black;
+  padding: 5px;
+
 }
 
 /* ===========================================================================*/
