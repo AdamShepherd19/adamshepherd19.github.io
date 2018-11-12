@@ -120,9 +120,14 @@ p {
   color: white;
   text-shadow: 1px 1px 4px black;
   border-left: 4px solid black;
-  height: 400px;
+  height: 350px;
   margin-top: 20px;
   padding: 5px;
+}
+
+.project-card img {
+  width: auto;
+
 }
 
 /* ===========================================================================*/
