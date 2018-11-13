@@ -135,6 +135,11 @@ p {
   height: 150px;
 }
 
+.project-card:hover{
+    border-left: 8px solid black;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 1024px) {
   .project-card{
     height: 350px;
