@@ -30,7 +30,10 @@ body {
 background-image: url('Images/homeBackgroundImage.jpg');
 }
 #all-projects-page {
-  background-image: url('Images/background2.jpg');
+  background-image: url('Images/allProjectsBackground.jpg');
+}
+#choral-shield-page {
+  background-image:  url('Images/projectsBackground.jpg')
 }
 /* ===========================================================================*/
 /* TEXT */
@@ -46,6 +49,7 @@ h1 {
 h3 {
   font-size: 40px;
   color: white;
+  text-shadow: 1px 1px 5px black;
 }
 
 h4 {
@@ -53,13 +57,10 @@ h4 {
   font-size: 30px;
 }
 
-#all-projects-page h3 {
-  color: var(--darkGrey);
-}
-
 p {
   font-size: 18px;
   padding: 5px 0px;
+  color: white;
 }
 
 /* reduces heading font size on smaller devices */
@@ -78,19 +79,16 @@ p {
 .header {
   border-left: 4px solid;
   margin-top: 25px;
+  margin-bottom: 20px;
 }
 
 /* ===========================================================================*/
 /* FOREGROUND BODY */
 /* ===========================================================================*/
-.main-body {
-  margin-top: 20px;
-  height: 100%;
-}
-
 .whole-page {
   max-width: 100%;
   height: 90%;
+  margin-top: 30px;
 }
 
 /* ===========================================================================*/
@@ -122,12 +120,12 @@ p {
 }
 
 .project-card{
-  color: white;
   text-shadow: 1px 1px 4px black;
   border-left: 4px solid black;
   height: 400px;
   margin-top: 20px;
   padding: 5px;
+  color: white;
 }
 
 .project-card img {
@@ -150,6 +148,23 @@ p {
   .project-card{
     height: 400px;
   }
+}
+
+/* ===========================================================================*/
+/* PROJECT PAGES */
+/* adapted and customised from the example on w3schools */
+/* ===========================================================================*/
+.project-page-image img{
+  width: 100%;
+}
+
+.project-page-image {
+  border-left: 4px solid black;
+}
+
+.project-page-text {
+  border-left: 4px solid black;
+  text-shadow: 1px 1px 4px black;
 }
 
 /* ===========================================================================*/
