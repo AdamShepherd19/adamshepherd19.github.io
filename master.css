@@ -30,7 +30,10 @@ body {
 background-image: url('Images/homeBackgroundImage.jpg');
 }
 #all-projects-page {
-  background-image: url('Images/background2.jpg');
+  background-image: url('Images/allProjectsBackground.jpg');
+}
+#choral-shield-page {
+  background-image:  url('Images/projectsBackground.jpg')
 }
 /* ===========================================================================*/
 /* TEXT */
