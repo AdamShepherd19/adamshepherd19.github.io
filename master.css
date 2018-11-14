@@ -49,15 +49,12 @@ h1 {
 h3 {
   font-size: 40px;
   color: white;
+  text-shadow: 1px 1px 5px black;
 }
 
 h4 {
   padding: 5px 0px;
   font-size: 30px;
-}
-
-#all-projects-page h3 {
-  color: var(--darkGrey);
 }
 
 p {
