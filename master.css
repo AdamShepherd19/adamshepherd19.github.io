@@ -89,10 +89,6 @@ p {
   margin-top: 30px;
 }
 
-.project-content {
-  margin-top: 20%;
-}
-
 /* ===========================================================================*/
 /* HOME PAGE BUTTONS */
 /* ===========================================================================*/
@@ -152,6 +148,10 @@ p {
   }
 }
 
+/* ===========================================================================*/
+/* PROJECT PAGES */
+/* adapted and customised from the example on w3schools */
+/* ===========================================================================*/
 .project-page-image img{
   width: 100%;
 }
@@ -159,6 +159,11 @@ p {
 .project-page-image {
   border-left: 4px solid black;
 }
+
+.project-content {
+  margin-top: 20%;
+}
+
 /* ===========================================================================*/
 /* NAVIGATION BAR */
 /* adapted and customised from the example on w3schools */
