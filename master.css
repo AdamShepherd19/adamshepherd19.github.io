@@ -79,7 +79,7 @@ p {
 .header {
   border-left: 4px solid;
   margin-top: 25px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 /* ===========================================================================*/
@@ -160,11 +160,13 @@ p {
 
 .project-page-image {
   border-left: 4px solid black;
+  margin-bottom: 20px
 }
 
 .project-page-text {
   border-left: 4px solid black;
   text-shadow: 1px 1px 4px black;
+  margin-bottom: 20px;
 }
 
 /* ===========================================================================*/
