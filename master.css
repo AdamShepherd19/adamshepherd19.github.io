@@ -178,6 +178,8 @@ p, li {
 
 .project-page-image {
   border-left: 4px solid black;
+  border-top: 4px solid black;
+  padding: 5px;
   margin-bottom: 20px
 }
 
