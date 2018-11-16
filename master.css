@@ -18,6 +18,7 @@ body {
   margin: 0px;
   font-family: 'Noto Sans';
   width: 100%;
+  min-height: 800px;
   padding-bottom: 20px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -58,12 +59,32 @@ h3 {
 h4 {
   padding: 5px 0px;
   font-size: 30px;
+  text-shadow: 1px 1px 4px black;
+  color: white;
 }
 
-p {
-  font-size: 18px;
+h5 {
+  padding: 5px 0px;
+  margin-top: 10px;
+  font-size: 26px;
+  text-shadow: 1px 1px 4px black;
+  color: white;
+  font-style: italic;
+}
+
+p, li {
+  font-size: 22px;
   padding: 5px 0px;
   color: white;
+  text-shadow: 1px 1px 4px black;
+}
+
+/* MAIN BODY TEXT */
+.main-text {
+  border-left: 4px solid black;
+  margin-bottom: 20px;
+  border-left: 4px solid black;
+  border-top: 4px solid black;
 }
 
 /* reduces heading font size on smaller devices */
@@ -99,6 +120,7 @@ p {
 /* ===========================================================================*/
 .nav-buttons .button {
   border-left: 4px solid black;
+  border-top: 4px solid black;
   text-align: left;
   padding: 20px 2%;
   margin-top: 5%;
@@ -106,7 +128,8 @@ p {
 
 .nav-buttons a {
   text-decoration: none;
-  color: black;
+  color: white;
+  text-shadow: 1px 1px 4px black;
   font-size: 26px;
   font-weight: bold;
 }
@@ -123,12 +146,13 @@ p {
 }
 
 .project-card{
-  text-shadow: 1px 1px 4px black;
   border-left: 4px solid black;
+  border-top: 4px solid black;
   height: 500px;
   margin-top: 20px;
   padding: 5px;
   color: white;
+  margin-bottom: 20px;
 }
 
 .project-card img {
@@ -141,9 +165,12 @@ p {
     text-decoration: underline;
 }
 
+.project-card p {
+  font-size: 18px;
+}
+
 /* ===========================================================================*/
 /* PROJECT PAGES */
-/* adapted and customised from the example on w3schools */
 /* ===========================================================================*/
 .project-page-image img{
   width: 100%;
@@ -151,13 +178,9 @@ p {
 
 .project-page-image {
   border-left: 4px solid black;
+  border-top: 4px solid black;
+  padding: 5px;
   margin-bottom: 20px
-}
-
-.project-page-text {
-  border-left: 4px solid black;
-  text-shadow: 1px 1px 4px black;
-  margin-bottom: 20px;
 }
 
 /* ===========================================================================*/
