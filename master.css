@@ -63,19 +63,17 @@ h4 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 22px;
   padding: 5px 0px;
   color: white;
   text-shadow: 1px 1px 4px black;
 }
+
 /* MAIN BODY TEXT */
 .main-text {
   border-left: 4px solid black;
   margin-bottom: 20px;
   border-left: 4px solid black;
-}
-.main-text p {
-  font-size: 30px;
 }
 
 /* reduces heading font size on smaller devices */
@@ -151,6 +149,10 @@ p {
 .project-card:hover{
     border-left: 8px solid black;
     text-decoration: underline;
+}
+
+.project-card p {
+  font-size: 18px;
 }
 
 /* ===========================================================================*/
