@@ -62,7 +62,16 @@ h4 {
   color: white;
 }
 
-p {
+h5 {
+  padding: 5px 0px;
+  margin-top: 10px;
+  font-size: 26px;
+  text-shadow: 1px 1px 4px black;
+  color: white;
+  font-style: italic;
+}
+
+p, li {
   font-size: 22px;
   padding: 5px 0px;
   color: white;
