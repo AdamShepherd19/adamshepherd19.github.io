@@ -119,6 +119,7 @@ p, li {
 /* ===========================================================================*/
 .nav-buttons .button {
   border-left: 4px solid black;
+  border-top: 4px solid black;
   text-align: left;
   padding: 20px 2%;
   margin-top: 5%;
@@ -145,10 +146,12 @@ p, li {
 
 .project-card{
   border-left: 4px solid black;
+  border-top: 4px solid black;
   height: 500px;
   margin-top: 20px;
   padding: 5px;
   color: white;
+  margin-bottom: 20px;
 }
 
 .project-card img {
