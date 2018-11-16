@@ -27,13 +27,16 @@ body {
 /* BACKGROUND */
 /* ===========================================================================*/
 #home-page{
-background-image: url('Images/homeBackgroundImage.jpg');
+  background-image: url('Images/background6.jpg')
 }
 #all-projects-page {
   background-image: url('Images/allProjectsBackground.jpg');
 }
 #project-page {
   background-image:  url('Images/projectsBackground.jpg')
+}
+#cv-page {
+  background-image: url('Images/cvBackground.jpg')
 }
 /* ===========================================================================*/
 /* TEXT */
