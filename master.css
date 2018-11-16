@@ -143,7 +143,6 @@ p {
 
 /* ===========================================================================*/
 /* PROJECT PAGES */
-/* adapted and customised from the example on w3schools */
 /* ===========================================================================*/
 .project-page-image img{
   width: 100%;
@@ -157,6 +156,14 @@ p {
 .project-page-text {
   border-left: 4px solid black;
   text-shadow: 1px 1px 4px black;
+  margin-bottom: 20px;
+}
+
+/* ===========================================================================*/
+/* CV PAGE */
+/* ===========================================================================*/
+.cv-text {
+  border-left: 4px solid black;
   margin-bottom: 20px;
 }
 
