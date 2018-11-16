@@ -58,12 +58,24 @@ h3 {
 h4 {
   padding: 5px 0px;
   font-size: 30px;
+  text-shadow: 1px 1px 4px black;
+  color: white;
 }
 
 p {
   font-size: 18px;
   padding: 5px 0px;
   color: white;
+  text-shadow: 1px 1px 4px black;
+}
+/* MAIN BODY TEXT */
+.main-text {
+  border-left: 4px solid black;
+  margin-bottom: 20px;
+  border-left: 4px solid black;
+}
+.main-text p {
+  font-size: 30px;
 }
 
 /* reduces heading font size on smaller devices */
@@ -124,7 +136,6 @@ p {
 }
 
 .project-card{
-  text-shadow: 1px 1px 4px black;
   border-left: 4px solid black;
   height: 500px;
   margin-top: 20px;
@@ -152,20 +163,6 @@ p {
 .project-page-image {
   border-left: 4px solid black;
   margin-bottom: 20px
-}
-
-.project-page-text {
-  border-left: 4px solid black;
-  text-shadow: 1px 1px 4px black;
-  margin-bottom: 20px;
-}
-
-/* ===========================================================================*/
-/* CV PAGE */
-/* ===========================================================================*/
-.cv-text {
-  border-left: 4px solid black;
-  margin-bottom: 20px;
 }
 
 /* ===========================================================================*/
