@@ -39,6 +39,9 @@ body {
 #cv-page {
   background-image: url('Images/cvBackground.jpg')
 }
+#contact-page {
+  background-image: url('Images/contactBackground.jpg')
+}
 /* ===========================================================================*/
 /* TEXT */
 /* ===========================================================================*/
