@@ -90,6 +90,10 @@ p, li {
   border-top: 4px solid black;
 }
 
+#contact-page .main-text {
+  border-top: none;
+}
+
 /* reduces heading font size on smaller devices */
 @media screen and (max-width: 768px) {
   h1{
