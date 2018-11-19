@@ -82,16 +82,16 @@ p, li {
   text-shadow: 1px 1px 4px black;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* MAIN BODY TEXT */
 .main-text {
   border-left: 4px solid black;
   margin-bottom: 20px;
   border-left: 4px solid black;
   border-top: 4px solid black;
-}
-
-#contact-page .main-text {
-  border-top: none;
 }
 
 /* reduces heading font size on smaller devices */
@@ -134,7 +134,6 @@ p, li {
 }
 
 .nav-buttons a {
-  text-decoration: none;
   color: white;
   text-shadow: 1px 1px 4px black;
   font-size: 26px;
@@ -190,6 +189,13 @@ p, li {
   margin-bottom: 20px
 }
 
+/* ===========================================================================*/
+  /* CONTACT ME PAGE */
+/* ===========================================================================*/
+#contact-page .main-text {
+  border-top: none;
+}
+
 i {
   font-size: 40px;
   margin-right: 20px;
@@ -213,7 +219,6 @@ i {
   color: white;
   text-align: left;
   padding: 14px 16px;
-  text-decoration: none;
   font-size: 17px;
 }
 
