@@ -190,6 +190,12 @@ p, li {
   margin-bottom: 20px
 }
 
+i {
+  font-size: 40px;
+  margin-right: 20px;
+  color: var(--darkBlue);
+}
+
 /* ===========================================================================*/
 /* NAVIGATION BAR */
 /* adapted and customised from the example on w3schools */
