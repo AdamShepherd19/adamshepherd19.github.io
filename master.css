@@ -111,6 +111,13 @@ a {
   margin-bottom: 50px;
 }
 
+/* increases gap at top of page on smaller devices to compensate for fixed nav bar */
+@media screen and (max-width: 1200px) {
+  .header {
+    margin-top: 100px;
+  }
+}
+
 /* ===========================================================================*/
 /* FOREGROUND BODY */
 /* ===========================================================================*/
