@@ -197,7 +197,14 @@ a {
 .main-text i {
   font-size: 40px;
   margin-right: 20px;
-  color: var(--darkBlue);
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-snapchat {
+  color: #fffc00;
 }
 
 /* ===========================================================================*/
