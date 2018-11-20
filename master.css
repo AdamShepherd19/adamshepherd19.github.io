@@ -91,7 +91,6 @@ a {
   border-left: 4px solid black;
   margin-bottom: 20px;
   border-left: 4px solid black;
-  border-top: 4px solid black;
 }
 
 /* reduces heading font size on smaller devices */
@@ -127,7 +126,6 @@ a {
 /* ===========================================================================*/
 .nav-buttons .button {
   border-left: 4px solid black;
-  border-top: 4px solid black;
   text-align: left;
   padding: 20px 2%;
   margin-top: 5%;
@@ -153,7 +151,6 @@ a {
 
 .project-card{
   border-left: 4px solid black;
-  border-top: 4px solid black;
   height: 500px;
   margin-top: 20px;
   padding: 5px;
@@ -184,7 +181,6 @@ a {
 
 .project-page-image {
   border-left: 4px solid black;
-  border-top: 4px solid black;
   padding: 5px;
   margin-bottom: 20px
 }
@@ -192,10 +188,6 @@ a {
 /* ===========================================================================*/
   /* CONTACT ME PAGE */
 /* ===========================================================================*/
-#contact-page .main-text {
-  border-top: none;
-}
-
 .main-text i {
   font-size: 40px;
   margin-right: 20px;
