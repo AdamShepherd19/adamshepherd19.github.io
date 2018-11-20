@@ -19,7 +19,6 @@ body {
   font-family: 'Noto Sans';
   width: 100%;
   min-height: 800px;
-  padding-bottom: 20px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -155,7 +154,7 @@ a {
   margin-top: 20px;
   padding: 5px;
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .project-card img {
