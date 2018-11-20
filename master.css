@@ -108,7 +108,7 @@ a {
 /* ===========================================================================*/
 .header {
   border-left: 4px solid;
-  margin-top: 25px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -203,6 +203,8 @@ a {
   background-color: var(--darkGrey);
   padding: 0px;
   max-width: 100%;
+  width: 100%;
+  position: fixed;
 }
 
 .nav-bar a {
