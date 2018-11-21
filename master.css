@@ -28,7 +28,7 @@ body {
 /* BACKGROUND */
 /* ===========================================================================*/
 #home-page{
-  background-image: url('Images/background6.jpg');
+  background-image: url('Images/homepageBackground.jpg');
 }
 #all-projects-page {
   background-image: url('Images/allProjectsBackground.jpg');
@@ -112,13 +112,6 @@ a {
   border-left: 4px solid;
   margin-top: 50px;
   margin-bottom: 50px;
-}
-
-/* increases gap at top of page on smaller devices to compensate for fixed nav-bar */
-@media screen and (max-width: 1200px) {
-  .header {
-    margin-top: 100px;
-  }
 }
 
 /* ===========================================================================*/
@@ -209,6 +202,10 @@ a {
 
 .fa-snapchat {
   color: #fffc00;
+}
+
+.fa-github {
+  color: #212121;
 }
 
 /* ===========================================================================*/
